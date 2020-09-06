@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Modak&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("./images/alesia-kazantceva-XLm6-fPwK5Q-unsplash 1.png"), rgba(150, 145, 145, 0.79);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100vw;
+  height: 7.6vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7vw;
+  border-bottom: 1px solid #f2f2f2;
+  color: #FFFFFF;
+}
+
+header img {
+  height: 3.8vw;
+  width: 19vw;
+  display: inline-block;
+  margin: 1.8vw auto auto 1.8vw;
+  border: 1px solid #ffffff;
+}
+
+header ul {
+  list-style-type: none;
+  float: right;
+  line-height: 7.6vw;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 2.7vw;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.7vw;
+}
+
+header ul li:nth-child(2) a {
+  color: red;
+}
+
+main {
+  width: 100vw;
+}
+
+main .hero {
+  width: 78vw;
+  height: 7vw;
+  position: relative;
+  top: 4vw;
+  left: 18vw;
+  font-family: "Modak", cursive;
+  color: #FFFFFF;
+  font-size: 6.8vw;
+  text-transform: uppercase;
+}
+
+main .box {
+  width: 36vw;
+  height: 18.8vw;
+  top: 16vw;
+  left: 58vw;
+  position: relative;
+  background-color: #ffffff;
+  padding: 4vw 6vw 4vw 2.8vw;
+  border: 1px solid #000000;
+  border-radius: 12px;
+}
+
+main .box ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+main .box ul li {
+  font-family: "Roboto", sans-serif;
+  line-height: 3.5vw;
+  color: #460808;
+  font-size: 2.5vw;
+}
+/*# sourceMappingURL=best_club.css.map */

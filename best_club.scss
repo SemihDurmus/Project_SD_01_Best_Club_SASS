@@ -1,2 +1,83 @@
 @import "reset";
 @import "globals";
+
+body {
+  background: url("./images/alesia-kazantceva-XLm6-fPwK5Q-unsplash\ 1.png"),
+    rgba(150, 145, 145, 0.79);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100vw;
+  height: 7.6vw;
+  font-family: $OtherFonts;
+  font-size: $HeaderFontSize;
+  border-bottom: 1px solid #f2f2f2;
+  color: $HeroLoginColor;
+  img {
+    height: 3.8vw;
+    width: 19vw;
+    display: inline-block;
+    margin: 1.8vw auto auto 1.8vw;
+    border: 1px solid #ffffff;
+  }
+  ul {
+    list-style-type: none;
+    float: right;
+    line-height: 7.6vw;
+
+    li {
+      display: inline-block;
+      margin-right: 2.7vw;
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: $HeaderFontSize;
+      }
+      &:nth-child(2) a {
+        color: red;
+      }
+    }
+  }
+}
+
+main {
+  width: 100vw;
+
+  .hero {
+    width: 78vw;
+    height: 7vw;
+    position: relative;
+    top: 4vw;
+    left: 18vw;
+    font-family: $HeroFont;
+    color: $HeroLoginColor;
+    font-size: 6.8vw;
+    text-transform: uppercase;
+  }
+  .box {
+    width: 36vw;
+    height: 18.8vw;
+    top: 16vw;
+    left: 58vw;
+    position: relative;
+    background-color: #ffffff;
+    padding: 4vw 6vw 4vw 2.8vw;
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+    ul {
+      list-style-type: circle;
+      list-style-position: inside;
+
+      li {
+        font-family: $OtherFonts;
+        line-height: 3.5vw;
+        color: #460808;
+        font-size: 2.5vw;
+      }
+    }
+  }
+}
