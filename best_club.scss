@@ -2,6 +2,8 @@
 @import "globals";
 
 body {
+  width: 100vw;
+  height: 100vh;
   background: url("./images/alesia-kazantceva-XLm6-fPwK5Q-unsplash\ 1.png"),
     rgba(150, 145, 145, 0.79);
   background-blend-mode: multiply;
@@ -13,15 +15,14 @@ header {
   width: 100vw;
   height: 7.6vw;
   font-family: $OtherFonts;
-  font-size: $HeaderFontSize;
   border-bottom: 1px solid #f2f2f2;
   color: $HeroLoginColor;
+  line-height: 7.6vw;
   img {
     height: 3.8vw;
     width: 19vw;
-    display: inline-block;
-    margin: 1.8vw auto auto 1.8vw;
-    border: 1px solid #ffffff;
+    margin-left: 1.8vw;
+    vertical-align: middle;    
   }
   ul {
     list-style-type: none;
@@ -80,4 +81,110 @@ main {
       }
     }
   }
+}
+// --------------------------------MEDIA 1000-------------------------------
+@media (min-width: 1000px) {
+
+  header {
+    height: 90px;
+    line-height: 90px;
+
+    img {
+      height: 40px;
+      width: 180px;
+      margin-left: 30px;
+      vertical-align: middle;
+    }
+
+    ul {
+      line-height: 90px;
+  
+      li {
+        display: inline-block;
+        margin-right: 25px;
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }    
+
+  main {
+     .hero {
+      width: 1054px;
+      height: 94px;
+      left: 30vw;
+      font-size: 70px;
+    }
+    .box {
+      width: 359px;
+      height: 188px;
+      padding: 40px 58px 27px 40px;
+
+      ul {
+        li {
+          line-height: 35px;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+}
+
+// --------------------------------MEDIA MAX-640-------------------------------
+
+@media (max-width: 640px) {
+
+  body {
+    width: 100vw;
+    height:100vh;
+  }
+
+  header {
+    height: 50px;
+    line-height: 50px;
+
+    img {
+      height: 24px;
+      width: 122px;
+      vertical-align: middle;
+      margin-left: 12px;
+    }
+
+    ul {
+      line-height: 50px;
+  
+      li {
+        display: inline-block;
+        margin-right: 25px;
+        a {
+          font-size: 10px;
+        }
+      }
+    }
+  }    
+
+  main {
+     .hero {
+      max-width:300px;
+      height: auto;
+      margin: 27px auto;
+      font-size: 44px;
+    }
+    .box {
+      width: 231px;
+      height: 120px;
+      padding: 25.68px 38.42px 25.68px 18px;
+      right: 10vw;
+
+      ul {
+        li {
+          line-height: 23px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
 }
