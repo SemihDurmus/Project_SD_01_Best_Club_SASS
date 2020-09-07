@@ -157,9 +157,9 @@ main {
   
       li {
         display: inline-block;
-        margin-right: 25px;
+        margin-right: 20px;
         a {
-          font-size: 10px;
+          font-size: 11px;
         }
       }
     }
@@ -171,12 +171,15 @@ main {
       height: auto;
       margin: 27px auto;
       font-size: 44px;
+      position: static;
     }
     .box {
+      position: static;
+      margin: auto;
       width: 231px;
       height: 120px;
       padding: 25.68px 38.42px 25.68px 18px;
-      right: 10vw;
+     
 
       ul {
         li {

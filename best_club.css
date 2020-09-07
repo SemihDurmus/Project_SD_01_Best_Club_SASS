@@ -150,22 +150,24 @@ main .box ul li {
   }
   header ul li {
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 20px;
   }
   header ul li a {
-    font-size: 10px;
+    font-size: 11px;
   }
   main .hero {
     max-width: 300px;
     height: auto;
     margin: 27px auto;
     font-size: 44px;
+    position: static;
   }
   main .box {
+    position: static;
+    margin: auto;
     width: 231px;
     height: 120px;
     padding: 25.68px 38.42px 25.68px 18px;
-    right: 10vw;
   }
   main .box ul li {
     line-height: 23px;
